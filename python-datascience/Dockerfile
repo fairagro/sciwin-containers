@@ -11,3 +11,4 @@ RUN pip install --no-cache-dir \
     kaleido==0.2.1 \
     plotly==6.9.0 \
     requests==2.32.5 \
+    SciencePlots==2.2.2
