@@ -2,9 +2,6 @@ FROM rocker/r-ver:4.4
 
 LABEL net.fairagro.sciwin.lang="r"
 LABEL net.fairagro.sciwin.version="4.4"
-LABEL net.fairagro.sciwin.requirements='[\
-       "tidyverse", "optparse", "jsonlite", "data.table" \
-]'
 LABEL net.fairagro.use-case="datascience"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
