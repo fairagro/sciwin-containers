@@ -1,0 +1,1714 @@
+{
+  "images": [
+    {
+      "tag": "sciwin/r-geospatial",
+      "lang": "r",
+      "version": "4.4",
+      "digest": "sha256:77e5954548561597d3eac48d26209e56ac09739da1ce34d946645cb4962a9eb1",
+      "size": 1666303166,
+      "created": "2026-07-20T13:59:01.34700101Z",
+      "architecture": "amd64",
+      "os": "linux",
+      "packages": {
+        "abind": "1.4-8",
+        "arrow": "19.0.1.1",
+        "askpass": "1.2.1",
+        "assertthat": "0.2.1",
+        "backports": "1.5.0",
+        "base64enc": "0.1-3",
+        "BH": "1.87.0-1",
+        "BiocManager": "1.30.25",
+        "BiocVersion": "3.20.0",
+        "bit": "4.6.0",
+        "bit64": "4.6.0-1",
+        "blob": "1.2.4",
+        "blogdown": "1.21",
+        "bookdown": "0.42",
+        "brew": "1.0-10",
+        "brio": "1.1.5",
+        "broom": "1.0.8",
+        "bslib": "0.9.0",
+        "cachem": "1.1.0",
+        "callr": "3.7.6",
+        "cellranger": "1.1.0",
+        "CFtime": "1.6.0",
+        "classInt": "0.4-11",
+        "cli": "3.6.4",
+        "clipr": "0.8.0",
+        "coda": "0.19-4.1",
+        "colorspace": "2.1-1",
+        "cols4all": "0.8",
+        "commonmark": "1.9.5",
+        "conflicted": "1.2.0",
+        "covr": "3.6.4",
+        "cpp11": "0.5.2",
+        "crayon": "1.5.3",
+        "credentials": "2.0.2",
+        "crosstalk": "1.2.1",
+        "curl": "6.2.2",
+        "data.table": "1.17.0",
+        "DBI": "1.2.3",
+        "dbplyr": "2.5.0",
+        "deldir": "2.0-4",
+        "desc": "1.4.3",
+        "devtools": "2.4.5",
+        "DiagrammeR": "1.0.11",
+        "dichromat": "2.0-0.1",
+        "diffobj": "0.3.5",
+        "digest": "0.6.37",
+        "distill": "1.6",
+        "docopt": "0.7.2",
+        "downlit": "0.4.4",
+        "dplyr": "1.1.4",
+        "dtplyr": "1.3.1",
+        "duckdb": "1.2.1",
+        "e1071": "1.7-16",
+        "ellipsis": "0.3.2",
+        "evaluate": "1.0.3",
+        "fansi": "1.0.6",
+        "farver": "2.1.2",
+        "fastmap": "1.2.0",
+        "FNN": "1.1.4.1",
+        "fontawesome": "0.5.3",
+        "forcats": "1.0.0",
+        "fs": "1.6.5",
+        "fst": "0.9.8",
+        "fstcore": "0.10.0",
+        "gargle": "1.5.2",
+        "generics": "0.1.3",
+        "geojsonsf": "2.0.3",
+        "geometries": "0.2.4",
+        "geoR": "1.9-4",
+        "geosphere": "1.5-20",
+        "gert": "2.1.5",
+        "getopt": "1.20.4",
+        "ggplot2": "3.5.2",
+        "gh": "1.4.1",
+        "gitcreds": "0.1.2",
+        "glue": "1.8.0",
+        "goftest": "1.2-3",
+        "googledrive": "2.1.1",
+        "googlesheets4": "1.1.1",
+        "gstat": "2.1-3",
+        "gtable": "0.3.6",
+        "haven": "2.5.4",
+        "hdf5r": "1.3.12",
+        "highr": "0.11",
+        "hms": "1.1.3",
+        "htmltools": "0.5.8.1",
+        "htmlwidgets": "1.6.4",
+        "httpuv": "1.6.15",
+        "httr": "1.4.7",
+        "httr2": "1.1.2",
+        "ids": "1.0.1",
+        "igraph": "2.1.4",
+        "ini": "0.3.1",
+        "intervals": "0.15.5",
+        "isoband": "0.2.7",
+        "jquerylib": "0.1.4",
+        "jsonify": "1.2.2",
+        "jsonlite": "2.0.0",
+        "knitr": "1.50",
+        "labeling": "0.4.3",
+        "Lahman": "12.0-0",
+        "later": "1.4.2",
+        "lazyeval": "0.2.2",
+        "leafem": "0.2.3",
+        "leafgl": "0.2.2",
+        "leaflegend": "1.2.1",
+        "leaflet": "2.2.2",
+        "leaflet.providers": "2.0.0",
+        "leafpop": "0.1.0",
+        "leafsync": "0.1.0",
+        "LearnBayes": "2.15.1",
+        "lidR": "4.1.2",
+        "lifecycle": "1.0.4",
+        "littler": "0.3.21",
+        "logger": "0.4.0",
+        "lubridate": "1.9.4",
+        "lwgeom": "0.2-14",
+        "magrittr": "2.0.3",
+        "mapdata": "2.3.1",
+        "maps": "3.4.2.1",
+        "mapview": "2.11.2",
+        "memoise": "2.0.1",
+        "mime": "0.13",
+        "miniUI": "0.1.1.1",
+        "modelr": "0.1.11",
+        "multcomp": "1.4-28",
+        "munsell": "0.5.1",
+        "mvtnorm": "1.3-3",
+        "ncdf4": "1.24",
+        "ncmeta": "0.4.0",
+        "nycflights13": "1.0.2",
+        "openssl": "2.3.2",
+        "optparse": "1.7.5",
+        "packrat": "0.9.2",
+        "pillar": "1.10.2",
+        "pkgbuild": "1.4.7",
+        "pkgconfig": "2.0.3",
+        "pkgdown": "2.1.1",
+        "pkgload": "1.4.0",
+        "PKI": "0.1-14",
+        "plogr": "0.2.0",
+        "plyr": "1.8.9",
+        "png": "0.1-8",
+        "polyclip": "1.10-7",
+        "praise": "1.0.0",
+        "prettyunits": "1.2.0",
+        "processx": "3.8.6",
+        "profvis": "0.4.0",
+        "progress": "1.2.3",
+        "proj4": "1.0-15",
+        "promises": "1.3.2",
+        "proxy": "0.4-27",
+        "ps": "1.9.0",
+        "purrr": "1.0.4",
+        "r2d3": "0.2.6",
+        "R6": "2.6.1",
+        "ragg": "1.3.3",
+        "rapidjsonr": "1.2.0",
+        "rappdirs": "0.3.3",
+        "raster": "3.6-32",
+        "rcmdcheck": "1.4.0",
+        "RColorBrewer": "1.1-3",
+        "Rcpp": "1.0.14",
+        "RcppArmadillo": "14.4.1-1",
+        "readr": "2.1.5",
+        "readxl": "1.4.5",
+        "redland": "1.0.17-18",
+        "rematch": "2.0.0",
+        "rematch2": "2.1.2",
+        "remotes": "2.5.0",
+        "renv": "1.1.4",
+        "reprex": "2.1.1",
+        "rex": "1.2.1",
+        "rgl": "1.3.18",
+        "rhdf5": "2.50.2",
+        "rhdf5filters": "1.18.1",
+        "Rhdf5lib": "1.28.0",
+        "rJava": "1.0-11",
+        "rlang": "1.1.5",
+        "rlas": "1.8.0",
+        "RMariaDB": "1.3.4",
+        "rmarkdown": "2.29",
+        "RNetCDF": "2.9-2",
+        "roxygen2": "7.3.2",
+        "RPostgres": "1.4.8",
+        "rprojroot": "2.0.4",
+        "rsconnect": "1.3.4",
+        "RSQLite": "2.3.9",
+        "rstudioapi": "0.17.1",
+        "rticles": "0.27",
+        "rversions": "2.1.2",
+        "rvest": "1.0.4",
+        "s2": "1.1.7",
+        "sandwich": "3.1-1",
+        "sass": "0.4.9",
+        "satellite": "1.0.5",
+        "scales": "1.3.0",
+        "selectr": "0.4-2",
+        "servr": "0.32",
+        "sessioninfo": "1.2.3",
+        "sf": "1.0-20",
+        "sfarrow": "0.4.1",
+        "sfheaders": "0.4.4",
+        "sftime": "0.3.0",
+        "shiny": "1.10.0",
+        "sourcetools": "0.1.7-1",
+        "sp": "2.2-0",
+        "spacesXYZ": "1.5-1",
+        "spacetime": "1.3-3",
+        "spatialreg": "1.3-6",
+        "spatstat": "3.3-2",
+        "spatstat.data": "3.1-6",
+        "spatstat.explore": "3.4-2",
+        "spatstat.geom": "3.3-6",
+        "spatstat.linnet": "3.2-5",
+        "spatstat.model": "3.3-5",
+        "spatstat.random": "3.3-3",
+        "spatstat.sparse": "3.1-0",
+        "spatstat.univar": "3.1-2",
+        "spatstat.utils": "3.1-3",
+        "spData": "2.3.4",
+        "spdep": "1.3-10",
+        "splancs": "2.01-45",
+        "stars": "0.6-8",
+        "stringdist": "0.9.15",
+        "stringi": "1.8.7",
+        "stringr": "1.5.1",
+        "svglite": "2.1.3",
+        "sys": "3.4.3",
+        "systemfonts": "1.2.2",
+        "tensor": "1.5",
+        "terra": "1.8-42",
+        "testit": "0.13",
+        "testthat": "3.2.3",
+        "textshaping": "1.0.0",
+        "TH.data": "1.1-3",
+        "tibble": "3.2.1",
+        "tidync": "0.4.0",
+        "tidyr": "1.3.1",
+        "tidyselect": "1.2.1",
+        "tidyverse": "2.0.0",
+        "timechange": "0.3.0",
+        "tinytex": "0.56",
+        "tmap": "4.0",
+        "tmaptools": "3.2",
+        "tufte": "0.13",
+        "tzdb": "0.5.0",
+        "units": "0.8-7",
+        "urlchecker": "1.0.1",
+        "usethis": "3.1.0",
+        "utf8": "1.2.4",
+        "uuid": "1.2-1",
+        "vctrs": "0.6.5",
+        "viridisLite": "0.4.2",
+        "visNetwork": "2.1.2",
+        "vroom": "1.6.5",
+        "waldo": "0.6.1",
+        "webshot": "0.5.5",
+        "whisker": "0.4.1",
+        "whoami": "1.3.0",
+        "withr": "3.0.2",
+        "wk": "0.9.4",
+        "xaringan": "0.30",
+        "xfun": "0.52",
+        "XML": "3.99-0.18",
+        "xml2": "1.3.8",
+        "xopen": "1.0.1",
+        "xtable": "1.8-4",
+        "xts": "0.14.1",
+        "yaml": "2.3.10",
+        "zip": "2.3.2",
+        "zoo": "1.8-13",
+        "base": "4.4.3",
+        "boot": "1.3-31",
+        "class": "7.3-23",
+        "cluster": "2.1.8",
+        "codetools": "0.2-20",
+        "compiler": "4.4.3",
+        "datasets": "4.4.3",
+        "foreign": "0.8-88",
+        "graphics": "4.4.3",
+        "grDevices": "4.4.3",
+        "grid": "4.4.3",
+        "KernSmooth": "2.23-26",
+        "lattice": "0.22-6",
+        "MASS": "7.3-64",
+        "Matrix": "1.7-2",
+        "methods": "4.4.3",
+        "mgcv": "1.9-1",
+        "nlme": "3.1-167",
+        "nnet": "7.3-20",
+        "parallel": "4.4.3",
+        "rpart": "4.1.24",
+        "spatial": "7.3-18",
+        "splines": "4.4.3",
+        "stats": "4.4.3",
+        "stats4": "4.4.3",
+        "survival": "3.8-3",
+        "tcltk": "4.4.3",
+        "tools": "4.4.3",
+        "utils": "4.4.3"
+      }
+    },
+    {
+      "tag": "sciwin/python-geospatial",
+      "lang": "python",
+      "version": "3.13",
+      "digest": "sha256:cf84ac163b4e3d6a9ba68df30acf57b1a10b3e4c0bdf550af1c1f46ea2a01277",
+      "size": 445147170,
+      "created": "2026-07-20T13:36:57.681262796Z",
+      "architecture": "amd64",
+      "os": "linux",
+      "packages": {
+        "affine": "2.4.0",
+        "attrs": "26.1.0",
+        "certifi": "2026.6.17",
+        "charset-normalizer": "3.4.9",
+        "click": "8.4.2",
+        "cligj": "0.7.2",
+        "contextily": "1.7.0",
+        "contourpy": "1.3.3",
+        "cycler": "0.12.1",
+        "fonttools": "4.63.0",
+        "geographiclib": "2.1",
+        "geopandas": "1.1.4",
+        "geopy": "2.4.1",
+        "idna": "3.18",
+        "joblib": "1.5.3",
+        "kiwisolver": "1.5.0",
+        "matplotlib": "3.10.6",
+        "mercantile": "1.2.1",
+        "networkx": "3.6.1",
+        "numpy": "2.5.1",
+        "osmnx": "2.1.0",
+        "packaging": "26.2",
+        "pandas": "3.0.4",
+        "pillow": "12.3.0",
+        "pip": "26.1.2",
+        "pyogrio": "0.13.0",
+        "pyparsing": "3.3.2",
+        "pyproj": "3.7.2",
+        "python-dateutil": "2.9.0.post0",
+        "rasterio": "1.5.0",
+        "requests": "2.34.2",
+        "shapely": "2.1.2",
+        "six": "1.17.0",
+        "urllib3": "2.7.0",
+        "xyzservices": "2026.3.0"
+      }
+    },
+    {
+      "tag": "sciwin/r-datascience",
+      "lang": "r",
+      "version": "4.4",
+      "digest": "sha256:071314d7da47b76a89d4bac39e59228783d31b1169773c7a519207809745665b",
+      "size": 462899674,
+      "created": "2026-07-20T13:47:39.727916104Z",
+      "architecture": "amd64",
+      "os": "linux",
+      "packages": {
+        "askpass": "1.2.1",
+        "backports": "1.5.0",
+        "base64enc": "0.1-3",
+        "bit": "4.6.0",
+        "bit64": "4.6.0-1",
+        "blob": "1.2.4",
+        "broom": "1.0.8",
+        "bslib": "0.9.0",
+        "cachem": "1.1.0",
+        "callr": "3.7.6",
+        "cellranger": "1.1.0",
+        "cli": "3.6.4",
+        "clipr": "0.8.0",
+        "colorspace": "2.1-1",
+        "conflicted": "1.2.0",
+        "cpp11": "0.5.2",
+        "crayon": "1.5.3",
+        "curl": "6.2.2",
+        "data.table": "1.17.0",
+        "DBI": "1.2.3",
+        "dbplyr": "2.5.0",
+        "digest": "0.6.37",
+        "docopt": "0.7.2",
+        "dplyr": "1.1.4",
+        "dtplyr": "1.3.1",
+        "evaluate": "1.0.3",
+        "fansi": "1.0.6",
+        "farver": "2.1.2",
+        "fastmap": "1.2.0",
+        "fontawesome": "0.5.3",
+        "forcats": "1.0.0",
+        "fs": "1.6.5",
+        "gargle": "1.5.2",
+        "generics": "0.1.3",
+        "getopt": "1.20.4",
+        "ggplot2": "3.5.2",
+        "glue": "1.8.0",
+        "googledrive": "2.1.1",
+        "googlesheets4": "1.1.1",
+        "gtable": "0.3.6",
+        "haven": "2.5.4",
+        "highr": "0.11",
+        "hms": "1.1.3",
+        "htmltools": "0.5.8.1",
+        "httr": "1.4.7",
+        "ids": "1.0.1",
+        "isoband": "0.2.7",
+        "jquerylib": "0.1.4",
+        "jsonlite": "2.0.0",
+        "knitr": "1.50",
+        "labeling": "0.4.3",
+        "lifecycle": "1.0.4",
+        "littler": "0.3.21",
+        "lubridate": "1.9.4",
+        "magrittr": "2.0.3",
+        "memoise": "2.0.1",
+        "mime": "0.13",
+        "modelr": "0.1.11",
+        "munsell": "0.5.1",
+        "openssl": "2.3.2",
+        "optparse": "1.7.5",
+        "pillar": "1.10.2",
+        "pkgconfig": "2.0.3",
+        "prettyunits": "1.2.0",
+        "processx": "3.8.6",
+        "progress": "1.2.3",
+        "ps": "1.9.0",
+        "purrr": "1.0.4",
+        "R6": "2.6.1",
+        "ragg": "1.3.3",
+        "rappdirs": "0.3.3",
+        "RColorBrewer": "1.1-3",
+        "readr": "2.1.5",
+        "readxl": "1.4.5",
+        "rematch": "2.0.0",
+        "rematch2": "2.1.2",
+        "reprex": "2.1.1",
+        "rlang": "1.1.5",
+        "rmarkdown": "2.29",
+        "rstudioapi": "0.17.1",
+        "rvest": "1.0.4",
+        "sass": "0.4.9",
+        "scales": "1.3.0",
+        "selectr": "0.4-2",
+        "stringi": "1.8.7",
+        "stringr": "1.5.1",
+        "sys": "3.4.3",
+        "systemfonts": "1.2.2",
+        "textshaping": "1.0.0",
+        "tibble": "3.2.1",
+        "tidyr": "1.3.1",
+        "tidyselect": "1.2.1",
+        "tidyverse": "2.0.0",
+        "timechange": "0.3.0",
+        "tinytex": "0.56",
+        "tzdb": "0.5.0",
+        "utf8": "1.2.4",
+        "uuid": "1.2-1",
+        "vctrs": "0.6.5",
+        "viridisLite": "0.4.2",
+        "vroom": "1.6.5",
+        "withr": "3.0.2",
+        "xfun": "0.52",
+        "xml2": "1.3.8",
+        "yaml": "2.3.10",
+        "base": "4.4.3",
+        "boot": "1.3-31",
+        "class": "7.3-23",
+        "cluster": "2.1.8",
+        "codetools": "0.2-20",
+        "compiler": "4.4.3",
+        "datasets": "4.4.3",
+        "foreign": "0.8-88",
+        "graphics": "4.4.3",
+        "grDevices": "4.4.3",
+        "grid": "4.4.3",
+        "KernSmooth": "2.23-26",
+        "lattice": "0.22-6",
+        "MASS": "7.3-64",
+        "Matrix": "1.7-2",
+        "methods": "4.4.3",
+        "mgcv": "1.9-1",
+        "nlme": "3.1-167",
+        "nnet": "7.3-20",
+        "parallel": "4.4.3",
+        "rpart": "4.1.24",
+        "spatial": "7.3-18",
+        "splines": "4.4.3",
+        "stats": "4.4.3",
+        "stats4": "4.4.3",
+        "survival": "3.8-3",
+        "tcltk": "4.4.3",
+        "tools": "4.4.3",
+        "utils": "4.4.3"
+      }
+    },
+    {
+      "tag": "sciwin/python-datascience",
+      "lang": "python",
+      "version": "3.13",
+      "digest": "sha256:cc544f9e8ad57421e4e15f4c5c65e3da6735e980c6027b1f23b74b63c813ea14",
+      "size": 212892100,
+      "created": "2026-07-20T13:38:15.624395986Z",
+      "architecture": "amd64",
+      "os": "linux",
+      "packages": {
+        "certifi": "2026.6.17",
+        "charset-normalizer": "3.4.9",
+        "contourpy": "1.3.3",
+        "cycler": "0.12.1",
+        "fonttools": "4.63.0",
+        "idna": "3.18",
+        "kaleido": "0.2.1",
+        "kiwisolver": "1.5.0",
+        "matplotlib": "3.10.6",
+        "narwhals": "2.24.0",
+        "numpy": "2.5.0",
+        "packaging": "26.2",
+        "pandas": "3.0.4",
+        "pillow": "12.3.0",
+        "pip": "26.1.2",
+        "plotly": "6.9.0",
+        "pyparsing": "3.3.2",
+        "python-dateutil": "2.9.0.post0",
+        "requests": "2.32.5",
+        "six": "1.17.0",
+        "urllib3": "2.7.0"
+      }
+    }
+  ],
+  "packageIndex": {
+    "abind": {
+      "sciwin/r-geospatial": "1.4-8"
+    },
+    "arrow": {
+      "sciwin/r-geospatial": "19.0.1.1"
+    },
+    "askpass": {
+      "sciwin/r-geospatial": "1.2.1",
+      "sciwin/r-datascience": "1.2.1"
+    },
+    "assertthat": {
+      "sciwin/r-geospatial": "0.2.1"
+    },
+    "backports": {
+      "sciwin/r-geospatial": "1.5.0",
+      "sciwin/r-datascience": "1.5.0"
+    },
+    "base64enc": {
+      "sciwin/r-geospatial": "0.1-3",
+      "sciwin/r-datascience": "0.1-3"
+    },
+    "BH": {
+      "sciwin/r-geospatial": "1.87.0-1"
+    },
+    "BiocManager": {
+      "sciwin/r-geospatial": "1.30.25"
+    },
+    "BiocVersion": {
+      "sciwin/r-geospatial": "3.20.0"
+    },
+    "bit": {
+      "sciwin/r-geospatial": "4.6.0",
+      "sciwin/r-datascience": "4.6.0"
+    },
+    "bit64": {
+      "sciwin/r-geospatial": "4.6.0-1",
+      "sciwin/r-datascience": "4.6.0-1"
+    },
+    "blob": {
+      "sciwin/r-geospatial": "1.2.4",
+      "sciwin/r-datascience": "1.2.4"
+    },
+    "blogdown": {
+      "sciwin/r-geospatial": "1.21"
+    },
+    "bookdown": {
+      "sciwin/r-geospatial": "0.42"
+    },
+    "brew": {
+      "sciwin/r-geospatial": "1.0-10"
+    },
+    "brio": {
+      "sciwin/r-geospatial": "1.1.5"
+    },
+    "broom": {
+      "sciwin/r-geospatial": "1.0.8",
+      "sciwin/r-datascience": "1.0.8"
+    },
+    "bslib": {
+      "sciwin/r-geospatial": "0.9.0",
+      "sciwin/r-datascience": "0.9.0"
+    },
+    "cachem": {
+      "sciwin/r-geospatial": "1.1.0",
+      "sciwin/r-datascience": "1.1.0"
+    },
+    "callr": {
+      "sciwin/r-geospatial": "3.7.6",
+      "sciwin/r-datascience": "3.7.6"
+    },
+    "cellranger": {
+      "sciwin/r-geospatial": "1.1.0",
+      "sciwin/r-datascience": "1.1.0"
+    },
+    "CFtime": {
+      "sciwin/r-geospatial": "1.6.0"
+    },
+    "classInt": {
+      "sciwin/r-geospatial": "0.4-11"
+    },
+    "cli": {
+      "sciwin/r-geospatial": "3.6.4",
+      "sciwin/r-datascience": "3.6.4"
+    },
+    "clipr": {
+      "sciwin/r-geospatial": "0.8.0",
+      "sciwin/r-datascience": "0.8.0"
+    },
+    "coda": {
+      "sciwin/r-geospatial": "0.19-4.1"
+    },
+    "colorspace": {
+      "sciwin/r-geospatial": "2.1-1",
+      "sciwin/r-datascience": "2.1-1"
+    },
+    "cols4all": {
+      "sciwin/r-geospatial": "0.8"
+    },
+    "commonmark": {
+      "sciwin/r-geospatial": "1.9.5"
+    },
+    "conflicted": {
+      "sciwin/r-geospatial": "1.2.0",
+      "sciwin/r-datascience": "1.2.0"
+    },
+    "covr": {
+      "sciwin/r-geospatial": "3.6.4"
+    },
+    "cpp11": {
+      "sciwin/r-geospatial": "0.5.2",
+      "sciwin/r-datascience": "0.5.2"
+    },
+    "crayon": {
+      "sciwin/r-geospatial": "1.5.3",
+      "sciwin/r-datascience": "1.5.3"
+    },
+    "credentials": {
+      "sciwin/r-geospatial": "2.0.2"
+    },
+    "crosstalk": {
+      "sciwin/r-geospatial": "1.2.1"
+    },
+    "curl": {
+      "sciwin/r-geospatial": "6.2.2",
+      "sciwin/r-datascience": "6.2.2"
+    },
+    "data.table": {
+      "sciwin/r-geospatial": "1.17.0",
+      "sciwin/r-datascience": "1.17.0"
+    },
+    "DBI": {
+      "sciwin/r-geospatial": "1.2.3",
+      "sciwin/r-datascience": "1.2.3"
+    },
+    "dbplyr": {
+      "sciwin/r-geospatial": "2.5.0",
+      "sciwin/r-datascience": "2.5.0"
+    },
+    "deldir": {
+      "sciwin/r-geospatial": "2.0-4"
+    },
+    "desc": {
+      "sciwin/r-geospatial": "1.4.3"
+    },
+    "devtools": {
+      "sciwin/r-geospatial": "2.4.5"
+    },
+    "DiagrammeR": {
+      "sciwin/r-geospatial": "1.0.11"
+    },
+    "dichromat": {
+      "sciwin/r-geospatial": "2.0-0.1"
+    },
+    "diffobj": {
+      "sciwin/r-geospatial": "0.3.5"
+    },
+    "digest": {
+      "sciwin/r-geospatial": "0.6.37",
+      "sciwin/r-datascience": "0.6.37"
+    },
+    "distill": {
+      "sciwin/r-geospatial": "1.6"
+    },
+    "docopt": {
+      "sciwin/r-geospatial": "0.7.2",
+      "sciwin/r-datascience": "0.7.2"
+    },
+    "downlit": {
+      "sciwin/r-geospatial": "0.4.4"
+    },
+    "dplyr": {
+      "sciwin/r-geospatial": "1.1.4",
+      "sciwin/r-datascience": "1.1.4"
+    },
+    "dtplyr": {
+      "sciwin/r-geospatial": "1.3.1",
+      "sciwin/r-datascience": "1.3.1"
+    },
+    "duckdb": {
+      "sciwin/r-geospatial": "1.2.1"
+    },
+    "e1071": {
+      "sciwin/r-geospatial": "1.7-16"
+    },
+    "ellipsis": {
+      "sciwin/r-geospatial": "0.3.2"
+    },
+    "evaluate": {
+      "sciwin/r-geospatial": "1.0.3",
+      "sciwin/r-datascience": "1.0.3"
+    },
+    "fansi": {
+      "sciwin/r-geospatial": "1.0.6",
+      "sciwin/r-datascience": "1.0.6"
+    },
+    "farver": {
+      "sciwin/r-geospatial": "2.1.2",
+      "sciwin/r-datascience": "2.1.2"
+    },
+    "fastmap": {
+      "sciwin/r-geospatial": "1.2.0",
+      "sciwin/r-datascience": "1.2.0"
+    },
+    "FNN": {
+      "sciwin/r-geospatial": "1.1.4.1"
+    },
+    "fontawesome": {
+      "sciwin/r-geospatial": "0.5.3",
+      "sciwin/r-datascience": "0.5.3"
+    },
+    "forcats": {
+      "sciwin/r-geospatial": "1.0.0",
+      "sciwin/r-datascience": "1.0.0"
+    },
+    "fs": {
+      "sciwin/r-geospatial": "1.6.5",
+      "sciwin/r-datascience": "1.6.5"
+    },
+    "fst": {
+      "sciwin/r-geospatial": "0.9.8"
+    },
+    "fstcore": {
+      "sciwin/r-geospatial": "0.10.0"
+    },
+    "gargle": {
+      "sciwin/r-geospatial": "1.5.2",
+      "sciwin/r-datascience": "1.5.2"
+    },
+    "generics": {
+      "sciwin/r-geospatial": "0.1.3",
+      "sciwin/r-datascience": "0.1.3"
+    },
+    "geojsonsf": {
+      "sciwin/r-geospatial": "2.0.3"
+    },
+    "geometries": {
+      "sciwin/r-geospatial": "0.2.4"
+    },
+    "geoR": {
+      "sciwin/r-geospatial": "1.9-4"
+    },
+    "geosphere": {
+      "sciwin/r-geospatial": "1.5-20"
+    },
+    "gert": {
+      "sciwin/r-geospatial": "2.1.5"
+    },
+    "getopt": {
+      "sciwin/r-geospatial": "1.20.4",
+      "sciwin/r-datascience": "1.20.4"
+    },
+    "ggplot2": {
+      "sciwin/r-geospatial": "3.5.2",
+      "sciwin/r-datascience": "3.5.2"
+    },
+    "gh": {
+      "sciwin/r-geospatial": "1.4.1"
+    },
+    "gitcreds": {
+      "sciwin/r-geospatial": "0.1.2"
+    },
+    "glue": {
+      "sciwin/r-geospatial": "1.8.0",
+      "sciwin/r-datascience": "1.8.0"
+    },
+    "goftest": {
+      "sciwin/r-geospatial": "1.2-3"
+    },
+    "googledrive": {
+      "sciwin/r-geospatial": "2.1.1",
+      "sciwin/r-datascience": "2.1.1"
+    },
+    "googlesheets4": {
+      "sciwin/r-geospatial": "1.1.1",
+      "sciwin/r-datascience": "1.1.1"
+    },
+    "gstat": {
+      "sciwin/r-geospatial": "2.1-3"
+    },
+    "gtable": {
+      "sciwin/r-geospatial": "0.3.6",
+      "sciwin/r-datascience": "0.3.6"
+    },
+    "haven": {
+      "sciwin/r-geospatial": "2.5.4",
+      "sciwin/r-datascience": "2.5.4"
+    },
+    "hdf5r": {
+      "sciwin/r-geospatial": "1.3.12"
+    },
+    "highr": {
+      "sciwin/r-geospatial": "0.11",
+      "sciwin/r-datascience": "0.11"
+    },
+    "hms": {
+      "sciwin/r-geospatial": "1.1.3",
+      "sciwin/r-datascience": "1.1.3"
+    },
+    "htmltools": {
+      "sciwin/r-geospatial": "0.5.8.1",
+      "sciwin/r-datascience": "0.5.8.1"
+    },
+    "htmlwidgets": {
+      "sciwin/r-geospatial": "1.6.4"
+    },
+    "httpuv": {
+      "sciwin/r-geospatial": "1.6.15"
+    },
+    "httr": {
+      "sciwin/r-geospatial": "1.4.7",
+      "sciwin/r-datascience": "1.4.7"
+    },
+    "httr2": {
+      "sciwin/r-geospatial": "1.1.2"
+    },
+    "ids": {
+      "sciwin/r-geospatial": "1.0.1",
+      "sciwin/r-datascience": "1.0.1"
+    },
+    "igraph": {
+      "sciwin/r-geospatial": "2.1.4"
+    },
+    "ini": {
+      "sciwin/r-geospatial": "0.3.1"
+    },
+    "intervals": {
+      "sciwin/r-geospatial": "0.15.5"
+    },
+    "isoband": {
+      "sciwin/r-geospatial": "0.2.7",
+      "sciwin/r-datascience": "0.2.7"
+    },
+    "jquerylib": {
+      "sciwin/r-geospatial": "0.1.4",
+      "sciwin/r-datascience": "0.1.4"
+    },
+    "jsonify": {
+      "sciwin/r-geospatial": "1.2.2"
+    },
+    "jsonlite": {
+      "sciwin/r-geospatial": "2.0.0",
+      "sciwin/r-datascience": "2.0.0"
+    },
+    "knitr": {
+      "sciwin/r-geospatial": "1.50",
+      "sciwin/r-datascience": "1.50"
+    },
+    "labeling": {
+      "sciwin/r-geospatial": "0.4.3",
+      "sciwin/r-datascience": "0.4.3"
+    },
+    "Lahman": {
+      "sciwin/r-geospatial": "12.0-0"
+    },
+    "later": {
+      "sciwin/r-geospatial": "1.4.2"
+    },
+    "lazyeval": {
+      "sciwin/r-geospatial": "0.2.2"
+    },
+    "leafem": {
+      "sciwin/r-geospatial": "0.2.3"
+    },
+    "leafgl": {
+      "sciwin/r-geospatial": "0.2.2"
+    },
+    "leaflegend": {
+      "sciwin/r-geospatial": "1.2.1"
+    },
+    "leaflet": {
+      "sciwin/r-geospatial": "2.2.2"
+    },
+    "leaflet.providers": {
+      "sciwin/r-geospatial": "2.0.0"
+    },
+    "leafpop": {
+      "sciwin/r-geospatial": "0.1.0"
+    },
+    "leafsync": {
+      "sciwin/r-geospatial": "0.1.0"
+    },
+    "LearnBayes": {
+      "sciwin/r-geospatial": "2.15.1"
+    },
+    "lidR": {
+      "sciwin/r-geospatial": "4.1.2"
+    },
+    "lifecycle": {
+      "sciwin/r-geospatial": "1.0.4",
+      "sciwin/r-datascience": "1.0.4"
+    },
+    "littler": {
+      "sciwin/r-geospatial": "0.3.21",
+      "sciwin/r-datascience": "0.3.21"
+    },
+    "logger": {
+      "sciwin/r-geospatial": "0.4.0"
+    },
+    "lubridate": {
+      "sciwin/r-geospatial": "1.9.4",
+      "sciwin/r-datascience": "1.9.4"
+    },
+    "lwgeom": {
+      "sciwin/r-geospatial": "0.2-14"
+    },
+    "magrittr": {
+      "sciwin/r-geospatial": "2.0.3",
+      "sciwin/r-datascience": "2.0.3"
+    },
+    "mapdata": {
+      "sciwin/r-geospatial": "2.3.1"
+    },
+    "maps": {
+      "sciwin/r-geospatial": "3.4.2.1"
+    },
+    "mapview": {
+      "sciwin/r-geospatial": "2.11.2"
+    },
+    "memoise": {
+      "sciwin/r-geospatial": "2.0.1",
+      "sciwin/r-datascience": "2.0.1"
+    },
+    "mime": {
+      "sciwin/r-geospatial": "0.13",
+      "sciwin/r-datascience": "0.13"
+    },
+    "miniUI": {
+      "sciwin/r-geospatial": "0.1.1.1"
+    },
+    "modelr": {
+      "sciwin/r-geospatial": "0.1.11",
+      "sciwin/r-datascience": "0.1.11"
+    },
+    "multcomp": {
+      "sciwin/r-geospatial": "1.4-28"
+    },
+    "munsell": {
+      "sciwin/r-geospatial": "0.5.1",
+      "sciwin/r-datascience": "0.5.1"
+    },
+    "mvtnorm": {
+      "sciwin/r-geospatial": "1.3-3"
+    },
+    "ncdf4": {
+      "sciwin/r-geospatial": "1.24"
+    },
+    "ncmeta": {
+      "sciwin/r-geospatial": "0.4.0"
+    },
+    "nycflights13": {
+      "sciwin/r-geospatial": "1.0.2"
+    },
+    "openssl": {
+      "sciwin/r-geospatial": "2.3.2",
+      "sciwin/r-datascience": "2.3.2"
+    },
+    "optparse": {
+      "sciwin/r-geospatial": "1.7.5",
+      "sciwin/r-datascience": "1.7.5"
+    },
+    "packrat": {
+      "sciwin/r-geospatial": "0.9.2"
+    },
+    "pillar": {
+      "sciwin/r-geospatial": "1.10.2",
+      "sciwin/r-datascience": "1.10.2"
+    },
+    "pkgbuild": {
+      "sciwin/r-geospatial": "1.4.7"
+    },
+    "pkgconfig": {
+      "sciwin/r-geospatial": "2.0.3",
+      "sciwin/r-datascience": "2.0.3"
+    },
+    "pkgdown": {
+      "sciwin/r-geospatial": "2.1.1"
+    },
+    "pkgload": {
+      "sciwin/r-geospatial": "1.4.0"
+    },
+    "PKI": {
+      "sciwin/r-geospatial": "0.1-14"
+    },
+    "plogr": {
+      "sciwin/r-geospatial": "0.2.0"
+    },
+    "plyr": {
+      "sciwin/r-geospatial": "1.8.9"
+    },
+    "png": {
+      "sciwin/r-geospatial": "0.1-8"
+    },
+    "polyclip": {
+      "sciwin/r-geospatial": "1.10-7"
+    },
+    "praise": {
+      "sciwin/r-geospatial": "1.0.0"
+    },
+    "prettyunits": {
+      "sciwin/r-geospatial": "1.2.0",
+      "sciwin/r-datascience": "1.2.0"
+    },
+    "processx": {
+      "sciwin/r-geospatial": "3.8.6",
+      "sciwin/r-datascience": "3.8.6"
+    },
+    "profvis": {
+      "sciwin/r-geospatial": "0.4.0"
+    },
+    "progress": {
+      "sciwin/r-geospatial": "1.2.3",
+      "sciwin/r-datascience": "1.2.3"
+    },
+    "proj4": {
+      "sciwin/r-geospatial": "1.0-15"
+    },
+    "promises": {
+      "sciwin/r-geospatial": "1.3.2"
+    },
+    "proxy": {
+      "sciwin/r-geospatial": "0.4-27"
+    },
+    "ps": {
+      "sciwin/r-geospatial": "1.9.0",
+      "sciwin/r-datascience": "1.9.0"
+    },
+    "purrr": {
+      "sciwin/r-geospatial": "1.0.4",
+      "sciwin/r-datascience": "1.0.4"
+    },
+    "r2d3": {
+      "sciwin/r-geospatial": "0.2.6"
+    },
+    "R6": {
+      "sciwin/r-geospatial": "2.6.1",
+      "sciwin/r-datascience": "2.6.1"
+    },
+    "ragg": {
+      "sciwin/r-geospatial": "1.3.3",
+      "sciwin/r-datascience": "1.3.3"
+    },
+    "rapidjsonr": {
+      "sciwin/r-geospatial": "1.2.0"
+    },
+    "rappdirs": {
+      "sciwin/r-geospatial": "0.3.3",
+      "sciwin/r-datascience": "0.3.3"
+    },
+    "raster": {
+      "sciwin/r-geospatial": "3.6-32"
+    },
+    "rcmdcheck": {
+      "sciwin/r-geospatial": "1.4.0"
+    },
+    "RColorBrewer": {
+      "sciwin/r-geospatial": "1.1-3",
+      "sciwin/r-datascience": "1.1-3"
+    },
+    "Rcpp": {
+      "sciwin/r-geospatial": "1.0.14"
+    },
+    "RcppArmadillo": {
+      "sciwin/r-geospatial": "14.4.1-1"
+    },
+    "readr": {
+      "sciwin/r-geospatial": "2.1.5",
+      "sciwin/r-datascience": "2.1.5"
+    },
+    "readxl": {
+      "sciwin/r-geospatial": "1.4.5",
+      "sciwin/r-datascience": "1.4.5"
+    },
+    "redland": {
+      "sciwin/r-geospatial": "1.0.17-18"
+    },
+    "rematch": {
+      "sciwin/r-geospatial": "2.0.0",
+      "sciwin/r-datascience": "2.0.0"
+    },
+    "rematch2": {
+      "sciwin/r-geospatial": "2.1.2",
+      "sciwin/r-datascience": "2.1.2"
+    },
+    "remotes": {
+      "sciwin/r-geospatial": "2.5.0"
+    },
+    "renv": {
+      "sciwin/r-geospatial": "1.1.4"
+    },
+    "reprex": {
+      "sciwin/r-geospatial": "2.1.1",
+      "sciwin/r-datascience": "2.1.1"
+    },
+    "rex": {
+      "sciwin/r-geospatial": "1.2.1"
+    },
+    "rgl": {
+      "sciwin/r-geospatial": "1.3.18"
+    },
+    "rhdf5": {
+      "sciwin/r-geospatial": "2.50.2"
+    },
+    "rhdf5filters": {
+      "sciwin/r-geospatial": "1.18.1"
+    },
+    "Rhdf5lib": {
+      "sciwin/r-geospatial": "1.28.0"
+    },
+    "rJava": {
+      "sciwin/r-geospatial": "1.0-11"
+    },
+    "rlang": {
+      "sciwin/r-geospatial": "1.1.5",
+      "sciwin/r-datascience": "1.1.5"
+    },
+    "rlas": {
+      "sciwin/r-geospatial": "1.8.0"
+    },
+    "RMariaDB": {
+      "sciwin/r-geospatial": "1.3.4"
+    },
+    "rmarkdown": {
+      "sciwin/r-geospatial": "2.29",
+      "sciwin/r-datascience": "2.29"
+    },
+    "RNetCDF": {
+      "sciwin/r-geospatial": "2.9-2"
+    },
+    "roxygen2": {
+      "sciwin/r-geospatial": "7.3.2"
+    },
+    "RPostgres": {
+      "sciwin/r-geospatial": "1.4.8"
+    },
+    "rprojroot": {
+      "sciwin/r-geospatial": "2.0.4"
+    },
+    "rsconnect": {
+      "sciwin/r-geospatial": "1.3.4"
+    },
+    "RSQLite": {
+      "sciwin/r-geospatial": "2.3.9"
+    },
+    "rstudioapi": {
+      "sciwin/r-geospatial": "0.17.1",
+      "sciwin/r-datascience": "0.17.1"
+    },
+    "rticles": {
+      "sciwin/r-geospatial": "0.27"
+    },
+    "rversions": {
+      "sciwin/r-geospatial": "2.1.2"
+    },
+    "rvest": {
+      "sciwin/r-geospatial": "1.0.4",
+      "sciwin/r-datascience": "1.0.4"
+    },
+    "s2": {
+      "sciwin/r-geospatial": "1.1.7"
+    },
+    "sandwich": {
+      "sciwin/r-geospatial": "3.1-1"
+    },
+    "sass": {
+      "sciwin/r-geospatial": "0.4.9",
+      "sciwin/r-datascience": "0.4.9"
+    },
+    "satellite": {
+      "sciwin/r-geospatial": "1.0.5"
+    },
+    "scales": {
+      "sciwin/r-geospatial": "1.3.0",
+      "sciwin/r-datascience": "1.3.0"
+    },
+    "selectr": {
+      "sciwin/r-geospatial": "0.4-2",
+      "sciwin/r-datascience": "0.4-2"
+    },
+    "servr": {
+      "sciwin/r-geospatial": "0.32"
+    },
+    "sessioninfo": {
+      "sciwin/r-geospatial": "1.2.3"
+    },
+    "sf": {
+      "sciwin/r-geospatial": "1.0-20"
+    },
+    "sfarrow": {
+      "sciwin/r-geospatial": "0.4.1"
+    },
+    "sfheaders": {
+      "sciwin/r-geospatial": "0.4.4"
+    },
+    "sftime": {
+      "sciwin/r-geospatial": "0.3.0"
+    },
+    "shiny": {
+      "sciwin/r-geospatial": "1.10.0"
+    },
+    "sourcetools": {
+      "sciwin/r-geospatial": "0.1.7-1"
+    },
+    "sp": {
+      "sciwin/r-geospatial": "2.2-0"
+    },
+    "spacesXYZ": {
+      "sciwin/r-geospatial": "1.5-1"
+    },
+    "spacetime": {
+      "sciwin/r-geospatial": "1.3-3"
+    },
+    "spatialreg": {
+      "sciwin/r-geospatial": "1.3-6"
+    },
+    "spatstat": {
+      "sciwin/r-geospatial": "3.3-2"
+    },
+    "spatstat.data": {
+      "sciwin/r-geospatial": "3.1-6"
+    },
+    "spatstat.explore": {
+      "sciwin/r-geospatial": "3.4-2"
+    },
+    "spatstat.geom": {
+      "sciwin/r-geospatial": "3.3-6"
+    },
+    "spatstat.linnet": {
+      "sciwin/r-geospatial": "3.2-5"
+    },
+    "spatstat.model": {
+      "sciwin/r-geospatial": "3.3-5"
+    },
+    "spatstat.random": {
+      "sciwin/r-geospatial": "3.3-3"
+    },
+    "spatstat.sparse": {
+      "sciwin/r-geospatial": "3.1-0"
+    },
+    "spatstat.univar": {
+      "sciwin/r-geospatial": "3.1-2"
+    },
+    "spatstat.utils": {
+      "sciwin/r-geospatial": "3.1-3"
+    },
+    "spData": {
+      "sciwin/r-geospatial": "2.3.4"
+    },
+    "spdep": {
+      "sciwin/r-geospatial": "1.3-10"
+    },
+    "splancs": {
+      "sciwin/r-geospatial": "2.01-45"
+    },
+    "stars": {
+      "sciwin/r-geospatial": "0.6-8"
+    },
+    "stringdist": {
+      "sciwin/r-geospatial": "0.9.15"
+    },
+    "stringi": {
+      "sciwin/r-geospatial": "1.8.7",
+      "sciwin/r-datascience": "1.8.7"
+    },
+    "stringr": {
+      "sciwin/r-geospatial": "1.5.1",
+      "sciwin/r-datascience": "1.5.1"
+    },
+    "svglite": {
+      "sciwin/r-geospatial": "2.1.3"
+    },
+    "sys": {
+      "sciwin/r-geospatial": "3.4.3",
+      "sciwin/r-datascience": "3.4.3"
+    },
+    "systemfonts": {
+      "sciwin/r-geospatial": "1.2.2",
+      "sciwin/r-datascience": "1.2.2"
+    },
+    "tensor": {
+      "sciwin/r-geospatial": "1.5"
+    },
+    "terra": {
+      "sciwin/r-geospatial": "1.8-42"
+    },
+    "testit": {
+      "sciwin/r-geospatial": "0.13"
+    },
+    "testthat": {
+      "sciwin/r-geospatial": "3.2.3"
+    },
+    "textshaping": {
+      "sciwin/r-geospatial": "1.0.0",
+      "sciwin/r-datascience": "1.0.0"
+    },
+    "TH.data": {
+      "sciwin/r-geospatial": "1.1-3"
+    },
+    "tibble": {
+      "sciwin/r-geospatial": "3.2.1",
+      "sciwin/r-datascience": "3.2.1"
+    },
+    "tidync": {
+      "sciwin/r-geospatial": "0.4.0"
+    },
+    "tidyr": {
+      "sciwin/r-geospatial": "1.3.1",
+      "sciwin/r-datascience": "1.3.1"
+    },
+    "tidyselect": {
+      "sciwin/r-geospatial": "1.2.1",
+      "sciwin/r-datascience": "1.2.1"
+    },
+    "tidyverse": {
+      "sciwin/r-geospatial": "2.0.0",
+      "sciwin/r-datascience": "2.0.0"
+    },
+    "timechange": {
+      "sciwin/r-geospatial": "0.3.0",
+      "sciwin/r-datascience": "0.3.0"
+    },
+    "tinytex": {
+      "sciwin/r-geospatial": "0.56",
+      "sciwin/r-datascience": "0.56"
+    },
+    "tmap": {
+      "sciwin/r-geospatial": "4.0"
+    },
+    "tmaptools": {
+      "sciwin/r-geospatial": "3.2"
+    },
+    "tufte": {
+      "sciwin/r-geospatial": "0.13"
+    },
+    "tzdb": {
+      "sciwin/r-geospatial": "0.5.0",
+      "sciwin/r-datascience": "0.5.0"
+    },
+    "units": {
+      "sciwin/r-geospatial": "0.8-7"
+    },
+    "urlchecker": {
+      "sciwin/r-geospatial": "1.0.1"
+    },
+    "usethis": {
+      "sciwin/r-geospatial": "3.1.0"
+    },
+    "utf8": {
+      "sciwin/r-geospatial": "1.2.4",
+      "sciwin/r-datascience": "1.2.4"
+    },
+    "uuid": {
+      "sciwin/r-geospatial": "1.2-1",
+      "sciwin/r-datascience": "1.2-1"
+    },
+    "vctrs": {
+      "sciwin/r-geospatial": "0.6.5",
+      "sciwin/r-datascience": "0.6.5"
+    },
+    "viridisLite": {
+      "sciwin/r-geospatial": "0.4.2",
+      "sciwin/r-datascience": "0.4.2"
+    },
+    "visNetwork": {
+      "sciwin/r-geospatial": "2.1.2"
+    },
+    "vroom": {
+      "sciwin/r-geospatial": "1.6.5",
+      "sciwin/r-datascience": "1.6.5"
+    },
+    "waldo": {
+      "sciwin/r-geospatial": "0.6.1"
+    },
+    "webshot": {
+      "sciwin/r-geospatial": "0.5.5"
+    },
+    "whisker": {
+      "sciwin/r-geospatial": "0.4.1"
+    },
+    "whoami": {
+      "sciwin/r-geospatial": "1.3.0"
+    },
+    "withr": {
+      "sciwin/r-geospatial": "3.0.2",
+      "sciwin/r-datascience": "3.0.2"
+    },
+    "wk": {
+      "sciwin/r-geospatial": "0.9.4"
+    },
+    "xaringan": {
+      "sciwin/r-geospatial": "0.30"
+    },
+    "xfun": {
+      "sciwin/r-geospatial": "0.52",
+      "sciwin/r-datascience": "0.52"
+    },
+    "XML": {
+      "sciwin/r-geospatial": "3.99-0.18"
+    },
+    "xml2": {
+      "sciwin/r-geospatial": "1.3.8",
+      "sciwin/r-datascience": "1.3.8"
+    },
+    "xopen": {
+      "sciwin/r-geospatial": "1.0.1"
+    },
+    "xtable": {
+      "sciwin/r-geospatial": "1.8-4"
+    },
+    "xts": {
+      "sciwin/r-geospatial": "0.14.1"
+    },
+    "yaml": {
+      "sciwin/r-geospatial": "2.3.10",
+      "sciwin/r-datascience": "2.3.10"
+    },
+    "zip": {
+      "sciwin/r-geospatial": "2.3.2"
+    },
+    "zoo": {
+      "sciwin/r-geospatial": "1.8-13"
+    },
+    "base": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "boot": {
+      "sciwin/r-geospatial": "1.3-31",
+      "sciwin/r-datascience": "1.3-31"
+    },
+    "class": {
+      "sciwin/r-geospatial": "7.3-23",
+      "sciwin/r-datascience": "7.3-23"
+    },
+    "cluster": {
+      "sciwin/r-geospatial": "2.1.8",
+      "sciwin/r-datascience": "2.1.8"
+    },
+    "codetools": {
+      "sciwin/r-geospatial": "0.2-20",
+      "sciwin/r-datascience": "0.2-20"
+    },
+    "compiler": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "datasets": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "foreign": {
+      "sciwin/r-geospatial": "0.8-88",
+      "sciwin/r-datascience": "0.8-88"
+    },
+    "graphics": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "grDevices": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "grid": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "KernSmooth": {
+      "sciwin/r-geospatial": "2.23-26",
+      "sciwin/r-datascience": "2.23-26"
+    },
+    "lattice": {
+      "sciwin/r-geospatial": "0.22-6",
+      "sciwin/r-datascience": "0.22-6"
+    },
+    "MASS": {
+      "sciwin/r-geospatial": "7.3-64",
+      "sciwin/r-datascience": "7.3-64"
+    },
+    "Matrix": {
+      "sciwin/r-geospatial": "1.7-2",
+      "sciwin/r-datascience": "1.7-2"
+    },
+    "methods": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "mgcv": {
+      "sciwin/r-geospatial": "1.9-1",
+      "sciwin/r-datascience": "1.9-1"
+    },
+    "nlme": {
+      "sciwin/r-geospatial": "3.1-167",
+      "sciwin/r-datascience": "3.1-167"
+    },
+    "nnet": {
+      "sciwin/r-geospatial": "7.3-20",
+      "sciwin/r-datascience": "7.3-20"
+    },
+    "parallel": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "rpart": {
+      "sciwin/r-geospatial": "4.1.24",
+      "sciwin/r-datascience": "4.1.24"
+    },
+    "spatial": {
+      "sciwin/r-geospatial": "7.3-18",
+      "sciwin/r-datascience": "7.3-18"
+    },
+    "splines": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "stats": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "stats4": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "survival": {
+      "sciwin/r-geospatial": "3.8-3",
+      "sciwin/r-datascience": "3.8-3"
+    },
+    "tcltk": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "tools": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "utils": {
+      "sciwin/r-geospatial": "4.4.3",
+      "sciwin/r-datascience": "4.4.3"
+    },
+    "affine": {
+      "sciwin/python-geospatial": "2.4.0"
+    },
+    "attrs": {
+      "sciwin/python-geospatial": "26.1.0"
+    },
+    "certifi": {
+      "sciwin/python-geospatial": "2026.6.17",
+      "sciwin/python-datascience": "2026.6.17"
+    },
+    "charset-normalizer": {
+      "sciwin/python-geospatial": "3.4.9",
+      "sciwin/python-datascience": "3.4.9"
+    },
+    "click": {
+      "sciwin/python-geospatial": "8.4.2"
+    },
+    "cligj": {
+      "sciwin/python-geospatial": "0.7.2"
+    },
+    "contextily": {
+      "sciwin/python-geospatial": "1.7.0"
+    },
+    "contourpy": {
+      "sciwin/python-geospatial": "1.3.3",
+      "sciwin/python-datascience": "1.3.3"
+    },
+    "cycler": {
+      "sciwin/python-geospatial": "0.12.1",
+      "sciwin/python-datascience": "0.12.1"
+    },
+    "fonttools": {
+      "sciwin/python-geospatial": "4.63.0",
+      "sciwin/python-datascience": "4.63.0"
+    },
+    "geographiclib": {
+      "sciwin/python-geospatial": "2.1"
+    },
+    "geopandas": {
+      "sciwin/python-geospatial": "1.1.4"
+    },
+    "geopy": {
+      "sciwin/python-geospatial": "2.4.1"
+    },
+    "idna": {
+      "sciwin/python-geospatial": "3.18",
+      "sciwin/python-datascience": "3.18"
+    },
+    "joblib": {
+      "sciwin/python-geospatial": "1.5.3"
+    },
+    "kiwisolver": {
+      "sciwin/python-geospatial": "1.5.0",
+      "sciwin/python-datascience": "1.5.0"
+    },
+    "matplotlib": {
+      "sciwin/python-geospatial": "3.10.6",
+      "sciwin/python-datascience": "3.10.6"
+    },
+    "mercantile": {
+      "sciwin/python-geospatial": "1.2.1"
+    },
+    "networkx": {
+      "sciwin/python-geospatial": "3.6.1"
+    },
+    "numpy": {
+      "sciwin/python-geospatial": "2.5.1",
+      "sciwin/python-datascience": "2.5.0"
+    },
+    "osmnx": {
+      "sciwin/python-geospatial": "2.1.0"
+    },
+    "packaging": {
+      "sciwin/python-geospatial": "26.2",
+      "sciwin/python-datascience": "26.2"
+    },
+    "pandas": {
+      "sciwin/python-geospatial": "3.0.4",
+      "sciwin/python-datascience": "3.0.4"
+    },
+    "pillow": {
+      "sciwin/python-geospatial": "12.3.0",
+      "sciwin/python-datascience": "12.3.0"
+    },
+    "pip": {
+      "sciwin/python-geospatial": "26.1.2",
+      "sciwin/python-datascience": "26.1.2"
+    },
+    "pyogrio": {
+      "sciwin/python-geospatial": "0.13.0"
+    },
+    "pyparsing": {
+      "sciwin/python-geospatial": "3.3.2",
+      "sciwin/python-datascience": "3.3.2"
+    },
+    "pyproj": {
+      "sciwin/python-geospatial": "3.7.2"
+    },
+    "python-dateutil": {
+      "sciwin/python-geospatial": "2.9.0.post0",
+      "sciwin/python-datascience": "2.9.0.post0"
+    },
+    "rasterio": {
+      "sciwin/python-geospatial": "1.5.0"
+    },
+    "requests": {
+      "sciwin/python-geospatial": "2.34.2",
+      "sciwin/python-datascience": "2.32.5"
+    },
+    "shapely": {
+      "sciwin/python-geospatial": "2.1.2"
+    },
+    "six": {
+      "sciwin/python-geospatial": "1.17.0",
+      "sciwin/python-datascience": "1.17.0"
+    },
+    "urllib3": {
+      "sciwin/python-geospatial": "2.7.0",
+      "sciwin/python-datascience": "2.7.0"
+    },
+    "xyzservices": {
+      "sciwin/python-geospatial": "2026.3.0"
+    },
+    "kaleido": {
+      "sciwin/python-datascience": "0.2.1"
+    },
+    "narwhals": {
+      "sciwin/python-datascience": "2.24.0"
+    },
+    "plotly": {
+      "sciwin/python-datascience": "6.9.0"
+    }
+  }
+}
