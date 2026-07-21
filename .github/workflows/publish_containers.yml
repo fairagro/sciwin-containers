@@ -1,4 +1,6 @@
 name: Publish Multi-Image to GHCR
+permissions:
+  contents: read
 
 on:
   release:
