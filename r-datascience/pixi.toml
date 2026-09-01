@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Jens Krumsieck <j.krumsieck@outlook.de>"]
+channels = ["conda-forge"]
+name = "r-datascience"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+r-base = "4.4.*"
+r-tidyverse = ">=2.0.0,<3"
+r-optparse = ">=1.8.2,<2"
+r-jsonlite = ">=2.0.0,<3"
+"r-data.table" = ">=1.18.4,<2"

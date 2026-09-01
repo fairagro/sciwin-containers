@@ -1,12 +1,19 @@
-# Shared template for every use-case image. Build per folder with
-# `docker build -f Dockerfile <folder>`; the folder supplies environment.yml
-# and the CI workflow asserts the net.fairagro.* labels from it.
-FROM mambaorg/micromamba:2.9.0
+FROM ghcr.io/prefix-dev/pixi:0.78.0 AS build
 
-COPY --chown=$MAMBA_USER:$MAMBA_USER environment.yml /tmp/environment.yml
-RUN micromamba install -y -n base -f /tmp/environment.yml && \
-    micromamba clean --all --force-pkgs-dirs --yes && \
-    find /opt/conda -follow -type f -name '*.a' -delete && \
-    find /opt/conda -follow -type f -name '*.pyc' -delete && \
-    find /opt/conda -follow -type d -name '__pycache__' -exec rm -rf '{}' + && \
-    rm -rf /opt/conda/share/doc /opt/conda/share/man /opt/conda/share/info
+WORKDIR /build
+COPY pixi.toml pixi.lock ./
+RUN pixi install --locked -e default
+
+FROM debian:trixie-slim
+COPY --from=build /build/.pixi/envs/default /opt/env
+RUN useradd --create-home --uid 1000 sciwin
+
+ENV PATH="/opt/env/bin:$PATH" \
+    CONDA_PREFIX="/opt/env" \
+    GDAL_DATA="/opt/env/share/gdal" \
+    PROJ_DATA="/opt/env/share/proj" \
+    GDAL_DRIVER_PATH="/opt/env/lib/gdalplugins"
+
+USER sciwin
+
+ENTRYPOINT []

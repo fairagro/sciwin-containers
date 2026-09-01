@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Jens Krumsieck <j.krumsieck@outlook.de>"]
+channels = ["conda-forge"]
+name = "r-geospatial"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+r-base = "4.4.*"
+r-sf = ">=1.1_2,<2"
+r-terra = ">=1.9_34,<2"
+r-stars = ">=0.7_3,<0.8"
+r-raster = ">=3.6_32,<4"
+r-mapview = ">=2.11.4,<3"
+r-classint = ">=0.4_11,<0.5"
+r-spdep = ">=1.4_2,<2"
+r-geosphere = ">=1.6_8,<2"
+r-optparse = ">=1.8.2,<2"

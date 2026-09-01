@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Jens Krumsieck <j.krumsieck@outlook.de>"]
+channels = ["conda-forge"]
+name = "python-net"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.13"
+python-dotenv = "==1.2.3"
+requests = "==2.32.5"

@@ -15,9 +15,9 @@ jobs:
       - uses: actions/checkout@v6
       - id: set-matrix
         run: |
-          # Each use-case folder supplies an environment.yml built with the
+          # Each use-case folder supplies a pixi.toml/pixi.lock built with the
           # shared root Dockerfile; the folder name is the matrix entry.
-          folders=$(find . -mindepth 2 -maxdepth 2 -name "environment.yml" -printf '%h\n' | sed 's|^\./||' | jq -R . | jq -s -c .)
+          folders=$(find . -mindepth 2 -maxdepth 2 -name "pixi.toml" -printf '%h\n' | sed 's|^\./||' | jq -R . | jq -s -c .)
           echo "matrix=$folders" >> $GITHUB_OUTPUT
 
   build-and-push:
@@ -41,16 +41,16 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Assert image labels from environment.yml
+      - name: Assert image labels from pixi.toml
         id: meta
         run: |
-          env_file="${{ matrix.folder }}/environment.yml"
-          if grep -q '^\s*- r-base=' "$env_file"; then
+          env_file="${{ matrix.folder }}/pixi.toml"
+          if grep -qE '^r-base ?=' "$env_file"; then
             lang=r
-            version=$(grep -m1 '^\s*- r-base=' "$env_file" | sed -E 's/.*r-base=([0-9.]+).*/\1/')
+            version=$(grep -m1 -E '^r-base ?=' "$env_file" | grep -oE '[0-9]+\.[0-9]+' | head -1)
           else
             lang=python
-            version=$(grep -m1 '^\s*- python=' "$env_file" | sed -E 's/.*python=([0-9.]+).*/\1/')
+            version=$(grep -m1 -E '^python ?=' "$env_file" | grep -oE '[0-9]+\.[0-9]+' | head -1)
           fi
           echo "lang=$lang" >> "$GITHUB_OUTPUT"
           echo "version=$version" >> "$GITHUB_OUTPUT"
