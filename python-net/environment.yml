@@ -1,0 +1,7 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - python-dotenv=1.2.3
+  - requests=2.32.5

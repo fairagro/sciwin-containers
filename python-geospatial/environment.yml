@@ -12,3 +12,5 @@ dependencies:
   - networkx=3.6.1
   - osmnx=2.1.0
   - shapely=2.1.2
+  - joblib=1.5.2
+  - requests=2.32.5
