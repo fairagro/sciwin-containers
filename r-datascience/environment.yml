@@ -1,0 +1,9 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.4
+  - r-tidyverse
+  - r-optparse
+  - r-jsonlite
+  - r-data.table

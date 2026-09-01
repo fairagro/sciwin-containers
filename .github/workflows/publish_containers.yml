@@ -15,9 +15,9 @@ jobs:
       - uses: actions/checkout@v6
       - id: set-matrix
         run: |
-          # Find all Dockerfiles, exclude the root directory (.), 
-          # get the parent directory, and create a JSON array
-          folders=$(find . -name "Dockerfile" -not -path "./Dockerfile" -printf '%h\n' | sed 's|^\./||' | jq -R . | jq -s -c .)
+          # Each use-case folder supplies an environment.yml built with the
+          # shared root Dockerfile; the folder name is the matrix entry.
+          folders=$(find . -mindepth 2 -maxdepth 2 -name "environment.yml" -printf '%h\n' | sed 's|^\./||' | jq -R . | jq -s -c .)
           echo "matrix=$folders" >> $GITHUB_OUTPUT
 
   build-and-push:
@@ -41,12 +41,30 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
+      - name: Assert image labels from environment.yml
+        id: meta
+        run: |
+          env_file="${{ matrix.folder }}/environment.yml"
+          if grep -q '^\s*- r-base=' "$env_file"; then
+            lang=r
+            version=$(grep -m1 '^\s*- r-base=' "$env_file" | sed -E 's/.*r-base=([0-9.]+).*/\1/')
+          else
+            lang=python
+            version=$(grep -m1 '^\s*- python=' "$env_file" | sed -E 's/.*python=([0-9.]+).*/\1/')
+          fi
+          echo "lang=$lang" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
-          context: .
-          file: ${{ matrix.folder }}/Dockerfile
+          context: ${{ matrix.folder }}
+          file: Dockerfile
           push: true
+          labels: |
+            net.fairagro.sciwin.lang=${{ steps.meta.outputs.lang }}
+            net.fairagro.sciwin.version=${{ steps.meta.outputs.version }}
+            net.fairagro.use-case=datascience
           tags: |
             sciwin/${{ matrix.folder }}:${{ github.event.release.tag_name }}
             sciwin/${{ matrix.folder }}:latest
