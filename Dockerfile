@@ -6,7 +6,11 @@ RUN pixi install --locked -e default
 
 FROM debian:trixie-slim
 COPY --from=build /build/.pixi/envs/default /opt/env
-RUN useradd --create-home --uid 1000 sciwin
+RUN useradd --create-home --uid 1000 sciwin && \
+    for bin in /opt/env/bin/*; do \
+        target="/usr/local/bin/$(basename "$bin")"; \
+        [ -e "$target" ] || ln -s "$bin" "$target"; \
+    done
 
 ENV PATH="/opt/env/bin:$PATH" \
     CONDA_PREFIX="/opt/env" \
